@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		
+		*{
+			margin: 0;
+			padding: 0;
+
+		}
+.third{
+	border: 1px solid gray;
+	background-image:url(3.jpg);
+	background-size: 100%,100%;
+	height: 650px;
+	width: 590px;
+	position: relative;
+	left: 30%;
+	filter: blur(10px);
+
+}
+.New h2{
+	box-sizing: border-box;
+	border-radius: 6px;
+	border:1px solid red;
+	position: absolute;
+	top:40%;
+	left: 40%;
+	width: 350px;
+	height: 34%;
+	text-align: center;
+	padding: 30px;
+	box-shadow: 4px 8px 5px gray;
+	color: #cc3e31;
+	font-family: arial;
+
+}
+.box{
+
+	box-sizing: border-box;
+	border: 1px solid #cc3e31;
+	//background-color: red;
+	position: absolute;
+	top: 52%;
+	width: 230px;
+	left: 44%;
+	height: 53px;
+	border-radius: 7px;
+	box-shadow: 4px 8px 5px gray;
+}
+.btn{
+	background-color: #cc3e31;
+	border-radius:27px;
+	border: 1px solid #cc3e31;
+	color: white;
+	font-size: 18px;
+	position: absolute;
+	top: 62%;
+	padding: 14px 35px;
+	left: 49%;
+
+}
+.pagination{
+			display:inline-block;
+			margin-left: 30%;
+			margin-top: 30px;
+
+
+		}
+.pagination a{
+			color: black;
+			//float: left;
+			padding: 5px 18px;
+			text-decoration: none;
+			font-size: 25px;
+			//margin-left: 40px;
+			position: relative;
+			border-radius: 2px;
+			
+		}
+
+.pagination a.active{
+		background-color: red;
+		color: white;
+
+}
+.pagination a:hover:not(.active){
+		background-color: #ddd;
+		}
+@media screen and (max-width:1220px){
+	.third{
+		width:900px;
+		left:20%;
+
+	
+       }	
+	.New h2{
+		width:350px;
+		left:32%;
+		
+       }
+      .box{
+      	left: 390px;
+
+      }
+	.btn{
+		width:100px;
+		left: 450px;
+		margin-top: 15px;
+       }
+}
+@media screen and (max-width:810px){
+	.third{
+		width:730px;
+		left:70%;
+		
+	
+       }	
+	.New h2{
+		width:600px;
+		left:32%;
+       }
+      .box{
+      	left: 20%;
+
+      }
+	.btn{
+		width:100px;
+		left: 190px;
+       }
+}
+@media screen and (max-width:767px){
+	.third{
+		width:400px;
+		left:10%;
+		
+	
+       }	
+	.New h2{
+		width:300px;
+		left:100px;
+       }
+      .box{
+      	left: 130px;
+
+      }
+	.btn{
+		width:120px;
+		left: 190px;
+		margin-top: 10px;
+       }
+}
+
+	</style>
+
+
+
+</head>
+<body>
+
+		
+
+	
+	<div class="third">
+		</div>
+			<div class="New">
+				<h2>Add New List</h2>
+			</div> 
+				<div class="box">
+				</div>
+	</div>
+
+		<button class="btn">ADD</button>
+	</div>
+	<div class="pagination">
+			<a href="index2.html">&laquo;</a>
+			<a href="index.html">1</a>
+			<a href="index 2.html">2</a>
+			<a href="index 3.html" class="active">3</a>
+			<a href="index 4.html">4</a>
+			<a href="index 4.html">&raquo;</a>
+		</div>
+</body>
+</html>

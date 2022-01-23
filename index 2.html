@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<style>
+		
+		*{
+			margin: 0;
+			padding: 0;
+
+		}
+.second{
+	border: 1px solid orange;
+	background-color: white;
+	height: 650px;
+	width: 550px;
+	position: relative;
+	left: 30%;
+
+}
+.second h1{
+	position: relative;
+	left: 13%;
+}
+.sone{
+		box-sizing: border-box;
+		border:1px solid red;
+		width: 400px;
+		height: 500px;
+		position: relative;
+		top: 35px;
+		left:70px; 
+		border-radius: 6px;
+		box-shadow: 4px 8px 5px gray;
+
+}
+
+.leftarrow{
+	position: relative;
+	top: 40px;
+	left: 20px;;
+}
+.sone h2{
+	box-sizing: border-box;
+	//padding: 20px 100px;
+	position: relative;
+
+	left: 20%;
+	top: 35px;
+	font-size: 40px;
+	color: #cc3e31;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+
+}
+.sone h3{
+
+	position: relative;
+	font-size: 30px;
+	top: 60px;
+	left: 20%;
+	color: #cc3e31;
+
+}
+.sone h4{
+
+	position: relative;
+	font-size: 30px;
+	top: 80px;
+	left: 20%;
+	font-family: arial;
+	color: #333;
+}
+.picon{
+		top: 60%;
+		position: relative;
+		width: 50px;
+		left: 323px;
+
+	}
+
+.boxicon{
+	 position: relative;
+	 top:113px;
+	 left: 50px;
+
+}
+.pagination{
+			display:inline-block;
+			margin-left: 30%;
+			margin-top: 30px;
+
+
+		}
+.pagination a{
+			color: black;
+			float: left;
+			padding: 5px 18px;
+			text-decoration: none;
+			font-size: 25px;
+			//margin-left: 40px;
+			position: relative;
+			border-radius: 2px;
+			
+		}
+
+.pagination a.active{
+		background-color: red;
+		color: white;
+
+}
+.pagination a:hover:not(.active){
+		background-color: #ddd;
+	
+	}
+
+@media(max-width:1000px){
+
+		.sone{
+			width:400px;
+		
+		}
+
+		.second{
+			width: 550px;
+			height: 630px;
+			position: relative;
+			left: 20%;
+			
+
+		}
+		.second h1{
+		//position: relative;
+		left: 10%;
+
+	}
+	@media(max-width:840px){
+
+		.sone{
+			width: 400px;
+			position: relative;
+			left: 20px;
+			
+		}
+		.second h1{
+		//position: relative;
+		left: 10%;
+		
+	}
+		.second{
+			width: 450px;
+			height: 600px;
+	
+			position: relative;
+			left: 20px;
+	
+
+			}
+@media(max-width:768px){
+		.sone{
+			width: 400px;
+			height:480px; 
+			position: relative;
+			left: 10px;
+		}
+		.sone h2{
+			margin-left:20px;
+		}
+		.second{
+			position: relative;
+			left: 20px;
+		}
+		.second h1{
+			width: 450px;
+			margin-left: 20px;
+				
+		}
+		
+	.pagination{
+		margin-left: 20px;
+}
+
+
+
+	</style>
+
+
+
+</head>
+<body>
+	<div class="second">
+		
+		<img src="arrow-left.svg" class="leftarrow"><h1>Trip to Paris</h1>
+	
+		<div class="sone">
+		<h2>Trip to Paris 
+			<hr size="1" color="gray" width="80%"align="right"></h2>
+		<h3><s>Completed Task</s></h3>
+
+		<img src="square.svg" class="boxicon"><h4> Pending Task</h4>
+		<img src="plus icon.png" class="picon">
+	</div>
+	</div>
+	<div class="pagination">
+			<a href="index.html">&laquo;</a>
+			<a href="index.html">1</a>
+			<a href="index.html" class="active">2</a>
+			<a href="index 3.html">3</a>
+			<a href="index 4.html">4</a>
+			<a href="index 3.html">&raquo;</a>
+		</div>
+</body>
+</html>
