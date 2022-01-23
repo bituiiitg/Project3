@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page 1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<style>
+		*{
+			margin: 0;
+			padding: 0
+
+		}
+		.one{
+			border: 1px solid #333;
+			background-color: white;
+			position: relative;
+			width: 480px;
+			height: 600px;
+			left: 30%;
+		}
+		.one h1{
+			padding: 25px;
+			font-size: 40px;
+			font-family: arial black;
+			position: absolute;
+		}
+		.plusI{
+
+			width: 50px;
+			position: relative;
+			left: 390px;
+			top: 40px;
+		}
+		.one .tone{
+			border: 2px solid #333;
+			background-color: lightyellow;
+			position: relative;
+			top: 50px;
+			margin: 30px;
+			box-sizing: border-box;
+			padding: 16px 15px;
+			border-radius: 10px;
+			box-shadow: 6px 8px 7px gray;
+			font-family: calibri;
+			font-size: 22px;
+
+		}
+
+		.pagination{
+			display:inline-block;
+			margin-left: 26%;
+			margin-top: 30px;
+
+
+		}
+		.pagination a{
+			color: black;
+			float: left;
+			padding: 5px 18px;
+			text-decoration: none;
+			font-size: 25px;
+			//margin-left: 40px;
+			position: relative;
+			border-radius: 2px;
+			
+		}
+.pagination a.active{
+		background-color: red;
+		color: white;
+
+}
+.pagination a:hover:not(.active){
+		background-color: #ddd;
+
+}
+@media screen and (max-width:1220px){
+	.one{
+		width:500px;
+		left:20%;
+	
+       }	
+	.one h1{
+		width:600px;
+		left:2%;
+       }
+      .plusI{
+      	left: 400px;
+
+      }
+	.one .tone{
+		width:450px;
+       }
+}
+@media screen and (max-width:810px){
+	.one{
+		width:400px;
+		left:20%;
+		
+       }	
+	.one h1{
+		width:370px;
+		left:20%;
+       }
+       .plusI{
+      	left: 410px;
+
+      }
+	.one .tone{
+		width:360px;
+       }
+	
+}
+@media screen(max-width:767px){
+	.one{
+		width:380px;
+		left:10%;
+
+       }	
+	.one h1{
+		width:320px;
+		left: 1%;
+       }
+       .plusI{
+      	left: 300px;
+
+      }
+	.one .tone{
+		width:320px;
+       }
+
+
+
+	</style>
+</head>
+<body>
+	<div class="one">
+
+		<h1>Tasks <font size="25" color="gray" face="Segoe UI Light">Lists</h1></font>
+		<img src="plus icon.jpg" class="plusI">
+	
+		<div class="tone">
+			<p>Trip to Paris</p>
+		</div>
+		<div class="tone">
+			<p>My Todo List 2</p>
+		</div>
+		<div class="tone">
+			<p>My Todo List 3</p>
+		</div>
+		<div class="tone">
+			<p>My Todo List 4</p>
+		</div>
+		<div class="tone">
+			<p>My Todo List 5</p>
+		</div>
+		</div>
+		<div class="pagination">
+			<a href="index 4.html">&laquo;</a>
+			<a href="index.html" class="active">1</a>
+			<a href="index 2.html">2</a>
+			<a href="index 3.html">3</a>
+			<a href="index 4.html">4</a>
+			<a href="index 2.html">&raquo;</a>
+		</div>
+</body>
+</html>
